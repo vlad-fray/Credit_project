@@ -1,0 +1,318 @@
+@import url(../css/custom-reset.css);
+
+$hover-color: #998675;
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: "") {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+@mixin text-style(
+  $size: false,
+  $color: false,
+  $weight: false,
+  $lh: false,
+  $font-family: "Arial"
+) {
+  font-family: $font-family, sans-serif;
+  @if $size {
+    font-size: $size;
+  }
+  @if $color {
+    color: $color;
+  }
+  @if $weight {
+    font-weight: $weight;
+  }
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+/* Header section*/
+
+.header {
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/header_bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1024px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto 280px;
+  padding-top: 38px;
+  min-height: 59px;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 637px;
+  }
+  &__item {
+    display: block;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    @include text-style(
+      $size: 14px,
+      $font-family: "Raleway",
+      $weight: 500,
+      $lh: 1.2,
+      $color: white
+    );
+    &:hover {
+      color: $hover-color;
+    }
+  }
+  &__basket {
+    width: 18px;
+    height: 24px;
+    margin-left: 64px;
+    fill: white;
+    &:hover {
+      fill: $hover-color;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  &__img {
+    width: 64px;
+    height: 56px;
+    fill: white;
+    margin-right: 2px;
+  }
+  &__text {
+    @include text-style(
+      $color: white,
+      $size: 34px,
+      $font-family: "Raleway",
+      $weight: 400
+    );
+  }
+  &:hover > &__img,
+  &:hover > &__text {
+    fill: $hover-color;
+    color: $hover-color;
+  }
+}
+
+.form {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  margin-left: 28px;
+  &__search {
+    height: 25px;
+    width: 0;
+    padding: 0 25px 0 0;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    &:focus {
+      padding: 0 15px 0 10px;
+      background: white right;
+      transition: width 1s ease-out;
+      width: 300px;
+      z-index: 1;
+    }
+  }
+  &__button {
+    background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"><path fill="white" d="M23.762,22.681 L17.569,16.586 C19.190,14.825 20.187,12.494 20.187,9.929 C20.186,4.443 15.668,-0.002 10.093,-0.002 C4.519,-0.002 0.001,4.443 0.001,9.929 C0.001,15.416 4.519,19.862 10.093,19.862 C12.502,19.862 14.711,19.028 16.446,17.644 L22.663,23.763 C22.966,24.062 23.458,24.062 23.761,23.763 C24.065,23.464 24.065,22.979 23.762,22.681 ZM10.093,18.334 C5.377,18.334 1.553,14.572 1.553,9.929 C1.553,5.288 5.377,1.525 10.093,1.525 C14.810,1.525 18.633,5.288 18.633,9.929 C18.633,14.572 14.810,18.334 10.093,18.334 Z"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    &::before {
+      content: "";
+      font-size: 16px;
+      color: #f9f0da;
+    }
+  }
+}
+
+.carusel {
+  display: flex;
+  max-width: 1620px;
+  align-items: center;
+  margin: 0 auto;
+  &__item {
+    height: inherit;
+    width: 48px;
+    cursor: pointer;
+    &:nth-of-type(2) {
+      transform: rotate(180deg);
+    }
+  }
+  &__arrow {
+    fill: #d3c1ad;
+    width: 50px;
+    height: 74px;
+    &:hover {
+      fill: $hover-color;
+    }
+  }
+}
+
+.slogan {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  &__pre-slogan {
+    @include text-style(
+      $size: 36px,
+      $color: white,
+      $font-family: "Raleway",
+      $weight: 500
+    );
+    margin-bottom: 5px;
+  }
+  &__main {
+    @include text-style(
+      $size: 52px,
+      $color: white,
+      $font-family: "Raleway",
+      $weight: 900
+    );
+    margin-bottom: 10px;
+  }
+  &__text {
+    width: 95%;
+    @include text-style(
+      $size: 16px,
+      $color: white,
+      $font-family: "Montserrat",
+      $weight: 300,
+      $lh: 24px
+    );
+    margin: 0 auto 50px;
+  }
+  &__button {
+    text-transform: uppercase;
+    background-color: $hover-color;
+    padding: 19px 39px;
+    border-radius: 2px;
+    @include text-style(
+      $color: white,
+      $size: 14px,
+      $weight: 700,
+      $font-family: "Raleway"
+    );
+    &:hover {
+      background-color: white;
+      color: $hover-color;
+    }
+    &:active {
+      background-color: grey;
+    }
+  }
+}
+
+.pagination {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 325px auto 42px;
+  &__item {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    border: 2px solid transparent;
+    &:hover {
+      background-color: transparent;
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+    }
+    &-current {
+      background-color: transparent;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+/* Services section */
+
+.services {
+  padding: 78px 0;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+  cursor: pointer;
+  &__icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 29px;
+  }
+  &__heading {
+    text-align: center;
+    @include text-style(
+      $size: 22px,
+      $color: #555,
+      $lh: 1.2,
+      $font-family: "Raleway",
+      $weight: 600
+    );
+    margin-bottom: 10px;
+  }
+  &__text {
+    text-align: center;
+    @include text-style(
+      $size: 14px,
+      $lh: 24px,
+      $font-family: "Montserrat",
+      $weight: 300,
+      $color: #8c8c8c
+    );
+  }
+  &__line {
+    height: 29px;
+    width: 71px;
+    margin-top: auto;
+    border-bottom: 2px solid #8c8c8c;
+  }
+  &:hover > &__icon {
+    fill: $hover-color;
+  }
+  &:hover > &__heading,
+  &:hover > &__text {
+    color: $hover-color;
+  }
+  &:hover > &__line {
+    border-bottom: 4px solid $hover-color;
+  }
+}
