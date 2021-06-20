@@ -1,4 +1,5 @@
-@import url(../css/custom-reset.css);
+@import "./custom-reset.scss";
+@import "./fonts.scss";
 /**/
 $hover-color: #998675;
 
@@ -18,9 +19,11 @@ $hover-color: #998675;
   $color: false,
   $weight: false,
   $lh: false,
-  $font-family: "Arial"
+  $font-family: "Arial",
+  $font-style: normal
 ) {
   font-family: $font-family, sans-serif;
+  font-style: $font-style;
   @if $size {
     font-size: $size;
   }
@@ -68,7 +71,7 @@ $hover-color: #998675;
     }
     @include text-style(
       $size: 14px,
-      $font-family: "Raleway",
+      $font-family: "raleway",
       $weight: 500,
       $lh: 1.2,
       $color: white
@@ -102,7 +105,7 @@ $hover-color: #998675;
     @include text-style(
       $color: white,
       $size: 34px,
-      $font-family: "Raleway",
+      $font-family: "raleway",
       $weight: 400
     );
   }
