@@ -39,11 +39,6 @@ $font-size-seched: 30px;
   }
 }
 
-@mixin w-h($width, $height) {
-  width: $width;
-  height: calc($width * ($height / 1920));
-}
-
 /* Header section*/
 
 .header {
@@ -619,7 +614,8 @@ $font-size-seched: 30px;
   position: relative;
   cursor: pointer;
   &__video {
-    @include w-h($height: 705px, $width: 100%);
+    --width: 100%;
+    width: 100%;
     background-image: url(../img/video-bg-photo.jpeg);
     background-position-y: 20%;
     filter: brightness(0.6);

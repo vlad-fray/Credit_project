@@ -886,8 +886,8 @@ h6 {
 }
 
 .video-pres__video {
+  --width: 100%;
   width: 100%;
-  height: calc($width * ($height / 1920));
   background-image: url(../img/video-bg-photo.jpeg);
   background-position-y: 20%;
   -webkit-filter: brightness(0.6);
