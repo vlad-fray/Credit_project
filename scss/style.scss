@@ -366,28 +366,11 @@ $font-size-seched: 30px;
 			$lh: 28px
 		);
 	}
-	&__container {
-		position: relative;
+	&__screen {
+		display: block;
 		max-width: 1230px;
 		margin: 0 auto;
 		height: 483px;
-	}
-	&__screen {
-		position: absolute;
-		&-left {
-			left: 0;
-			bottom: 0;
-		}
-		&-center {
-			z-index: 1;
-			left: 50%;
-			transform: translateX(-50%);
-			bottom: -1px;
-		}
-		&-right {
-			right: 0;
-			bottom: 0;
-		}
 	}
 }
 
@@ -651,6 +634,7 @@ $font-size-seched: 30px;
 	@include pseudo();
 	text-align: center;
 	width: 570px;
+	height: 290px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
@@ -661,8 +645,7 @@ $font-size-seched: 30px;
 		height: 100px;
 		border-radius: 50%;
 		background-color: rgba(0, 0, 0, 0.2);
-		margin-bottom: 52px;
-		padding-top: 30px;
+		margin-bottom: 38px;
 	}
 	&__icon {
 		fill: white;
@@ -675,7 +658,7 @@ $font-size-seched: 30px;
 			$weight: 500,
 			$font-family: 'raleway'
 		);
-		margin-bottom: 20px;
+		margin-bottom: 12px;
 	}
 	&__text {
 		@include text-style(
@@ -685,7 +668,7 @@ $font-size-seched: 30px;
 			$weight: 300,
 			$font-family: 'montserrat'
 		);
-		margin-bottom: 35px;
+		margin-bottom: 28px;
 	}
 	&__timer {
 		@include text-style(
@@ -694,6 +677,270 @@ $font-size-seched: 30px;
 			$color: #c7b299,
 			$weight: 400,
 			$font-family: 'montserrat'
+		);
+	}
+}
+
+/* Adaptive presentation section */
+
+.adaptive-pres {
+	background-color: #fbfaf8;
+	&__wrp {
+		margin: 0 auto;
+		padding: 80px 0 0;
+		max-width: 1170px;
+		display: flex;
+		justify-content: flex-end;
+	}
+	&__img {
+		width: 423px;
+		height: 616px;
+		margin-right: -12px;
+	}
+	&__art-wrp {
+		max-width: 710px;
+		padding-left: 42px;
+	}
+	&__heading {
+		@include text-style(
+			$font-family: 'raleway',
+			$size: 30px,
+			$lh: 1.2,
+			$weight: 600,
+			$color: #555
+		);
+		margin: 105px 0 25px;
+	}
+	&__text {
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 16px,
+			$lh: 28px,
+			$weight: 300,
+			$color: #8c8c8c
+		);
+		margin-bottom: 30px;
+	}
+	&__list {
+		margin-left: 50px;
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 16px,
+			$lh: 33px,
+			$weight: 300,
+			$color: #8c8c8c
+		);
+		& span {
+			display: block;
+		}
+	}
+	&__icon {
+		flex-shrink: 0;
+		width: 22px;
+		height: 22px;
+		fill: #c7b299;
+		margin-right: 30px;
+	}
+}
+
+/* Counters section */
+
+.counters {
+	padding: 64px 0;
+	display: flex;
+	justify-content: center;
+	background: #f4f5f8
+		linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+
+.counters-card {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&::after {
+		content: '';
+		display: block;
+		width: 30px;
+		height: 2px;
+		background-color: #fff;
+	}
+	&__img {
+		fill: white;
+		width: 60px;
+		height: 45px;
+		margin-bottom: 25px;
+	}
+	&__num {
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 48px,
+			$lh: 1,
+			$weight: 200,
+			$color: #fff
+		);
+		margin-bottom: 10px;
+	}
+	&__text {
+		text-transform: uppercase;
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 14px,
+			$lh: 20px,
+			$weight: 300,
+			$color: #c7b299
+		);
+		margin-bottom: 22px;
+	}
+}
+
+/* Recent posts section */
+
+.recent-posts {
+	margin: 0 auto;
+	padding: 75px 0;
+	&__heading {
+		text-align: center;
+		@include text-style(
+			$font-family: 'raleway',
+			$size: 30px,
+			$lh: 1.2,
+			$weight: 600,
+			$color: #555
+		);
+		margin-bottom: 15px;
+	}
+	&__text {
+		max-width: 770px;
+		margin: 0 auto;
+		text-align: center;
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 16px,
+			$lh: 28px,
+			$weight: 300,
+			$color: #8c8c8c
+		);
+		margin-bottom: 36px;
+	}
+	&__wrp {
+		display: flex;
+		justify-content: space-between;
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+	&__btn-wrp {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		max-width: 53px;
+	}
+	&__btn {
+		background-color: inherit;
+	}
+	&__btn-icon {
+		fill: #d1d1d1;
+		&:hover {
+			fill: #c7b299;
+		}
+	}
+}
+
+.post-card {
+	position: relative;
+	width: 370px;
+	background-color: rgba(119, 119, 119, 0);
+	border: 1px solid #f8f8f8;
+	&__img {
+		width: 370px;
+		height: 220px;
+		margin-bottom: 25px;
+	}
+	&__heading {
+		@include text-style(
+			$font-family: 'raleway',
+			$size: 20px,
+			$lh: 1.2,
+			$weight: 500,
+			$color: #555
+		);
+		margin-bottom: 11px;
+		padding: 0 30px;
+	}
+	&__text {
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 14px,
+			$lh: 27px,
+			$weight: 300,
+			$color: #8c8c8c
+		);
+		margin-bottom: 12px;
+		padding: 0 30px;
+	}
+	&__link {
+		position: relative;
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 14px,
+			$lh: 28px,
+			$weight: 300,
+			$color: #c7b299
+		);
+		padding: 0 30px;
+		&::after {
+			@include pseudo();
+			right: -20px;
+			top: 25%;
+			width: 6px;
+			height: 6px;
+			transform: rotate(45deg);
+			background: linear-gradient(
+				45deg,
+				transparent,
+				transparent 50%,
+				#c7b299 50%
+			);
+		}
+	}
+}
+
+.date-card {
+	position: absolute;
+	width: 52px;
+	top: 20px;
+	left: 20px;
+	&__day {
+		display: block;
+		text-align: center;
+		padding: 4px 0 2px;
+		border-radius: 5px 5px 0 0;
+		background-color: #363636;
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 24px,
+			$lh: 30px,
+			$weight: 300,
+			$color: #fff
+		);
+	}
+	&__month {
+		display: block;
+		text-align: center;
+		padding: 2px 0 2px;
+		border-radius: 0 0 5px 5px;
+		text-transform: capitalize;
+		background-color: #252525;
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 12px,
+			$lh: 20px,
+			$weight: 400,
+			$color: #fff
 		);
 	}
 }
