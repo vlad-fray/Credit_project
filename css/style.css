@@ -1222,6 +1222,10 @@ h6 {
 }
 
 .post-card {
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   position: relative;
   width: 370px;
   background-color: rgba(119, 119, 119, 0);
