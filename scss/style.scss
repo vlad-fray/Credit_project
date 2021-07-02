@@ -546,6 +546,7 @@ $font-size-seched: 30px;
 }
 
 .project-card {
+	@include transition();
 	position: relative;
 	flex-basis: 370px;
 	background-color: #fbfaf8;

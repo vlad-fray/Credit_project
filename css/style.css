@@ -822,6 +822,10 @@ h6 {
 }
 
 .project-card {
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   position: relative;
   -ms-flex-preferred-size: 370px;
       flex-basis: 370px;
