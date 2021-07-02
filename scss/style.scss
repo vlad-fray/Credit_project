@@ -1,11 +1,10 @@
 @import './custom-reset.scss';
 @import './fonts.scss';
-/**/
+
 $hover-color: #998675;
 $font-size-seched: 30px;
 
 .wrapper {
-	// max-width: 1920px;
 	margin: 0 auto;
 }
 
@@ -43,8 +42,12 @@ $font-size-seched: 30px;
 	}
 }
 
-/* Header section*/
+@mixin transition() {
+	transition: background 0.5s ease, color 0.5s ease,
+		opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+}
 
+/* Header section*/
 .header {
 	background-color: black;
 	background-image: linear-gradient(
@@ -79,6 +82,7 @@ $font-size-seched: 30px;
 		width: 637px;
 	}
 	&__item {
+		@include transition();
 		display: block;
 		&:last-of-type {
 			margin-right: 0;
@@ -95,6 +99,7 @@ $font-size-seched: 30px;
 		}
 	}
 	&__basket {
+		@include transition();
 		width: 18px;
 		height: 24px;
 		margin-left: 64px;
@@ -110,12 +115,14 @@ $font-size-seched: 30px;
 	align-items: center;
 	margin-right: auto;
 	&__img {
+		@include transition();
 		width: 64px;
 		height: 56px;
 		fill: white;
 		margin-right: 2px;
 	}
 	&__text {
+		@include transition();
 		@include text-style(
 			$color: white,
 			$size: 34px,
@@ -188,6 +195,7 @@ $font-size-seched: 30px;
 		}
 	}
 	&__arrow {
+		@include transition();
 		fill: #d3c1ad;
 		width: 50px;
 		height: 74px;
@@ -231,6 +239,7 @@ $font-size-seched: 30px;
 		margin: 0 auto 50px;
 	}
 	&__button {
+		@include transition();
 		text-transform: uppercase;
 		background-color: $hover-color;
 		padding: 19px 39px;
@@ -279,7 +288,6 @@ $font-size-seched: 30px;
 }
 
 /* Services section */
-
 .services {
 	padding: 78px 10px;
 	display: flex;
@@ -295,6 +303,7 @@ $font-size-seched: 30px;
 	margin: 0 15px;
 	cursor: pointer;
 	&::after {
+		@include transition();
 		content: '';
 		height: 29px;
 		width: 71px;
@@ -302,11 +311,13 @@ $font-size-seched: 30px;
 		border-bottom: 2px solid #8c8c8c;
 	}
 	&__icon {
+		@include transition();
 		width: 50px;
 		height: 50px;
 		margin-bottom: 29px;
 	}
 	&__heading {
+		@include transition();
 		text-align: center;
 		@include text-style(
 			$size: 22px,
@@ -318,6 +329,7 @@ $font-size-seched: 30px;
 		margin-bottom: 10px;
 	}
 	&__text {
+		@include transition();
 		text-align: center;
 		@include text-style(
 			$size: 14px,
@@ -340,7 +352,6 @@ $font-size-seched: 30px;
 }
 
 /* Screens section */
-
 .screens {
 	padding: 80px 10px 0;
 	background-color: #fbfaf8;
@@ -375,7 +386,6 @@ $font-size-seched: 30px;
 }
 
 /* Promo section */
-
 .promo {
 	padding: 40px 10px 50px;
 	background-color: #f4f5f8;
@@ -413,6 +423,7 @@ $font-size-seched: 30px;
 		);
 	}
 	&__button {
+		@include transition();
 		align-self: flex-end;
 		text-transform: uppercase;
 		background-color: $hover-color;
@@ -436,7 +447,6 @@ $font-size-seched: 30px;
 }
 
 /* Projects section */
-
 .projects {
 	position: relative;
 	max-width: 1170px;
@@ -472,6 +482,7 @@ $font-size-seched: 30px;
 		margin-bottom: 40px;
 	}
 	&__filter {
+		@include transition();
 		height: 32px;
 		padding: 0 24px;
 		margin-right: 10px;
@@ -508,6 +519,7 @@ $font-size-seched: 30px;
 		margin-bottom: 10px;
 	}
 	&__btn {
+		@include transition();
 		display: block;
 		margin: 0 auto;
 		text-transform: uppercase;
@@ -540,6 +552,7 @@ $font-size-seched: 30px;
 	margin-bottom: 32px;
 	cursor: pointer;
 	&__img {
+		@include transition();
 		width: 100%;
 		height: 237px;
 	}
@@ -558,6 +571,7 @@ $font-size-seched: 30px;
 		}
 	}
 	&__heading {
+		@include transition();
 		@include text-style(
 			$size: 20px,
 			$color: #c7b299,
@@ -567,6 +581,7 @@ $font-size-seched: 30px;
 		margin-bottom: 5px;
 	}
 	&__text {
+		@include transition();
 		@include text-style(
 			$size: 14px,
 			$color: #d1d1d1,
@@ -613,7 +628,6 @@ $font-size-seched: 30px;
 }
 
 /* Video presentation section */
-
 .video-pres {
 	position: relative;
 	max-width: 1920px;
@@ -648,6 +662,7 @@ $font-size-seched: 30px;
 		margin-bottom: 38px;
 	}
 	&__icon {
+		@include transition();
 		fill: white;
 		padding-top: 5px;
 	}
@@ -679,10 +694,12 @@ $font-size-seched: 30px;
 			$font-family: 'montserrat'
 		);
 	}
+	&:hover &__icon {
+		fill: #c7b299;
+	}
 }
 
 /* Adaptive presentation section */
-
 .adaptive-pres {
 	background-color: #fbfaf8;
 	&__wrp {
@@ -748,7 +765,6 @@ $font-size-seched: 30px;
 }
 
 /* Counters section */
-
 .counters {
 	padding: 64px 0;
 	display: flex;
@@ -799,10 +815,9 @@ $font-size-seched: 30px;
 }
 
 /* Recent posts section */
-
 .recent-posts {
 	margin: 0 auto;
-	padding: 75px 0;
+	padding: 75px 0 78px;
 	&__heading {
 		text-align: center;
 		@include text-style(
@@ -831,7 +846,7 @@ $font-size-seched: 30px;
 		display: flex;
 		justify-content: space-between;
 		max-width: 1170px;
-		margin: 0 auto;
+		margin: 0 auto 35px;
 	}
 	&__btn-wrp {
 		display: flex;
@@ -856,11 +871,13 @@ $font-size-seched: 30px;
 	background-color: rgba(119, 119, 119, 0);
 	border: 1px solid #f8f8f8;
 	&__img {
-		width: 370px;
+		@include transition();
+		width: 100%;
 		height: 220px;
 		margin-bottom: 25px;
 	}
 	&__heading {
+		@include transition();
 		@include text-style(
 			$font-family: 'raleway',
 			$size: 20px,
@@ -872,6 +889,7 @@ $font-size-seched: 30px;
 		padding: 0 30px;
 	}
 	&__text {
+		@include transition();
 		@include text-style(
 			$font-family: 'montserrat',
 			$size: 14px,
@@ -883,6 +901,7 @@ $font-size-seched: 30px;
 		padding: 0 30px;
 	}
 	&__link {
+		display: block;
 		position: relative;
 		@include text-style(
 			$font-family: 'montserrat',
@@ -891,11 +910,11 @@ $font-size-seched: 30px;
 			$weight: 300,
 			$color: #c7b299
 		);
-		padding: 0 30px;
+		padding: 0 30px 25px;
 		&::after {
 			@include pseudo();
-			right: -20px;
-			top: 25%;
+			left: 120px;
+			top: 20%;
 			width: 6px;
 			height: 6px;
 			transform: rotate(45deg);
@@ -907,14 +926,34 @@ $font-size-seched: 30px;
 			);
 		}
 	}
+	&:hover {
+		background-color: #362f2d;
+	}
+	&:hover .date-card__day {
+		background-color: #c7b299;
+	}
+	&:hover .date-card__month {
+		background-color: #a48d72;
+	}
+	&:hover &__img {
+		filter: brightness(0.5);
+	}
+	&:hover &__heading {
+		color: #c7b299;
+	}
+	&:hover &__text {
+		color: white;
+	}
 }
 
 .date-card {
 	position: absolute;
+	z-index: 1;
 	width: 52px;
 	top: 20px;
 	left: 20px;
 	&__day {
+		@include transition();
 		display: block;
 		text-align: center;
 		padding: 4px 0 2px;
@@ -929,6 +968,7 @@ $font-size-seched: 30px;
 		);
 	}
 	&__month {
+		@include transition();
 		display: block;
 		text-align: center;
 		padding: 2px 0 2px;
@@ -942,5 +982,337 @@ $font-size-seched: 30px;
 			$weight: 400,
 			$color: #fff
 		);
+	}
+}
+
+.card-pagination {
+	position: absolute;
+	z-index: 1;
+	top: 185px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	&__item {
+		display: block;
+		width: 11px;
+		height: 11px;
+		background: rgba(255, 255, 255, 0.5);
+		border-radius: 50%;
+		border: 2px solid transparent;
+		&:hover {
+			background-color: transparent;
+			box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+		}
+		&-current {
+			background-color: transparent;
+			border: 2px solid rgba(255, 255, 255, 0.5);
+		}
+	}
+}
+
+/* Partners section */
+.partners {
+	height: 490px;
+	background-image: url(../img/partners_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__logo {
+		width: 210px;
+		margin: 0 45px;
+	}
+}
+
+// Footer
+/* Contacts section  */
+.contacts {
+	background-color: #191919;
+	&__wrp {
+		max-width: 1170px;
+		margin: 0 auto;
+		padding: 80px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.waxom-card {
+	width: 270px;
+	cursor: default;
+	&__logo {
+		margin-bottom: 20px;
+		display: flex;
+		align-items: center;
+	}
+	&__img {
+		@include transition();
+		width: 64px;
+		height: 56px;
+		fill: white;
+		margin-right: 2px;
+	}
+	&__logo-text {
+		@include transition();
+		@include text-style(
+			$color: white,
+			$size: 34px,
+			$font-family: 'raleway',
+			$weight: 400
+		);
+	}
+	&__text {
+		@include transition();
+		@include text-style(
+			$font-family: 'Montserrat',
+			$size: 14px,
+			$lh: 24px,
+			$weight: 300,
+			$color: #555
+		);
+		margin-bottom: 24px;
+	}
+	&__link {
+		@include transition();
+		display: block;
+		position: relative;
+		@include text-style(
+			$font-family: 'montserrat',
+			$size: 14px,
+			$lh: 20px,
+			$weight: 400,
+			$color: #d1d1d1
+		);
+		&::after {
+			@include pseudo();
+			left: 83px;
+			top: 32%;
+			width: 6px;
+			height: 6px;
+			transform: rotate(45deg);
+			background: linear-gradient(
+				45deg,
+				transparent,
+				transparent 50%,
+				#d1d1d1 50%
+			);
+		}
+	}
+	&:hover &__img {
+		fill: #c7b299;
+	}
+	&:hover &__logo-text {
+		color: #c7b299;
+	}
+	&:hover &__text {
+		color: white;
+	}
+	&:hover &__link {
+		color: #c7b299;
+		&::after {
+			background: linear-gradient(
+				45deg,
+				transparent,
+				transparent 50%,
+				#c7b299 50%
+			);
+		}
+	}
+}
+
+.contacts-recposts {
+	width: 270px;
+	cursor: pointer;
+	&__heading {
+		@include text-style(
+			$font-family: 'Raleway',
+			$size: 24px,
+			$lh: 1.2,
+			$weight: 700,
+			$color: white
+		);
+		margin: 20px 0 23px;
+	}
+	&__text {
+		@include transition();
+		@include text-style(
+			$font-family: 'Montserrat',
+			$size: 14px,
+			$lh: 20px,
+			$weight: 300,
+			$color: #555
+		);
+		& mark {
+			background-color: inherit;
+			color: #00bff3;
+		}
+		&:not(:last-of-type)::after {
+			display: block;
+			position: relative;
+			content: '';
+			width: 100%;
+			height: 2px;
+			background-color: #252525;
+			margin: 20px 0 12px;
+		}
+		&:hover {
+			color: #c7b299;
+			& .contacts-recposts__date {
+				color: white;
+			}
+			&::after {
+				background-color: #c7b299;
+			}
+		}
+	}
+	&__date {
+		@include transition();
+		display: block;
+		@include text-style(
+			$font-family: 'Montserrat',
+			$size: 12px,
+			$lh: 20px,
+			$weight: 300,
+			$color: #363636
+		);
+		margin: 0 0 5px;
+	}
+}
+
+.twitter-posts {
+	width: 270px;
+	cursor: pointer;
+	&__heading {
+		@include text-style(
+			$font-family: 'Raleway',
+			$size: 24px,
+			$lh: 1.2,
+			$weight: 700,
+			$color: white
+		);
+		margin: 20px 0 21px;
+	}
+	&__text {
+		@include transition();
+		@include text-style(
+			$font-family: 'Montserrat',
+			$size: 14px,
+			$lh: 20px,
+			$weight: 300,
+			$color: #555
+		);
+		& mark {
+			background-color: inherit;
+			color: #00bff3;
+		}
+		&:not(:last-of-type)::after {
+			display: block;
+			position: relative;
+			content: '';
+			width: 100%;
+			height: 2px;
+			background-color: #252525;
+			margin: 20px 0 13px;
+		}
+		&:hover {
+			color: #c7b299;
+			& .twitter-posts__date {
+				color: white;
+			}
+			&::after {
+				background-color: #c7b299;
+			}
+		}
+	}
+	&__date {
+		@include transition();
+		display: block;
+		@include text-style(
+			$font-family: 'Montserrat',
+			$size: 12px,
+			$lh: 20px,
+			$weight: 300,
+			$color: #363636
+		);
+		margin: 6px 0 0 0;
+	}
+	&__link {
+		color: #959595;
+	}
+}
+
+.dribble-widget {
+	width: 270px;
+	cursor: pointer;
+	&__heading {
+		@include text-style(
+			$font-family: 'Raleway',
+			$size: 24px,
+			$lh: 1.2,
+			$weight: 700,
+			$color: white
+		);
+		margin: 20px 0 25px;
+	}
+	&__wrp {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+		max-width: 270px;
+		min-height: 210px;
+	}
+	&__widget {
+		@include transition();
+		background-position: center;
+		&-phone {
+			background-image: url(../img/contacts-phone.jpeg);
+		}
+		&-bag {
+			background-image: url(../img/contacts-bag.jpeg);
+		}
+		&-magazine {
+			background-image: url(../img/contacts-magazine.jpeg);
+		}
+		&-icons {
+			background-image: url(../img/contacts-icons.jpeg);
+		}
+		&:hover {
+			filter: brightness(0.5);
+		}
+	}
+}
+
+/* Copyright section*/
+.copyright {
+	min-height: 100px;
+	background-color: #111111;
+	display: flex;
+	align-items: center;
+	color: white;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		flex-basis: 1170px;
+	}
+	&__text {
+		color: #555555;
+		margin-right: 10px;
+	}
+	&__name {
+		color: #959595;
+	}
+	&__link {
+		@include transition();
+		color: #555555;
+		margin-right: 10px;
+		&:hover {
+			color: #c7b299;
+		}
 	}
 }
