@@ -295,6 +295,22 @@ h6 {
   padding: 20px 20px;
 }
 
+.burger-nav__basket {
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  padding: 2px 0 0;
+  margin-right: 20px;
+  width: 30px;
+  height: 35px;
+  fill: white;
+}
+
+.burger-nav__basket:hover {
+  fill: #998675;
+}
+
 .burger-menu {
   position: relative;
   z-index: 3;
@@ -337,16 +353,6 @@ h6 {
 }
 
 .burger-menu__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: fixed;
   visibility: hidden;
   top: 0;
@@ -360,13 +366,28 @@ h6 {
           transition-duration: 0.25s;
 }
 
+.burger-menu__wrp {
+  height: 90vh;
+  max-height: 700px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5vh 0;
+}
+
 .burger-menu__item {
   -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
   transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
   transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
   transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
-  margin: 10px 0;
   text-align: center;
   font-family: "raleway", sans-serif;
   font-style: normal;
@@ -1553,9 +1574,13 @@ h6 {
           align-items: center;
 }
 
-.partners__logo {
+.partners__wrp {
   width: 210px;
   margin: 0 45px;
+}
+
+.partners__logo {
+  width: 100%;
 }
 
 /* Contacts section  */
@@ -1902,7 +1927,7 @@ h6 {
 
 .copyright__text {
   color: #555555;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
 .copyright__name {
@@ -1915,7 +1940,7 @@ h6 {
   transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
   transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   color: #555555;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
 .copyright__link:hover {
@@ -1987,9 +2012,10 @@ h6 {
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto;
+    padding: 0 10px;
   }
   .post-card {
-    margin: 0 0 30px;
+    margin: 0 10px 30px;
   }
   .partners {
     height: auto;
@@ -1999,8 +2025,7 @@ h6 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .partners__logo {
-    width: 210px;
+  .partners__wrp {
     margin: 30px auto;
   }
   .contacts__wrp {
@@ -2019,11 +2044,31 @@ h6 {
 
 @media (max-width: 768px) {
   .header {
-    min-height: 0;
-    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    min-height: 375px;
+    max-height: 768px;
   }
-  .carusel {
-    display: none;
+  .burger-nav {
+    position: relative;
+  }
+  .slogan__pre-slogan {
+    font-size: 28px;
+  }
+  .slogan__main {
+    font-size: 40px;
+  }
+  .slogan__text {
+    width: 95%;
+    font-size: 14px;
+    margin: 0 auto 20px;
   }
   .pagination {
     display: none;
@@ -2058,6 +2103,7 @@ h6 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     gap: 40px;
+    padding: 0 10px;
   }
   .projects__filters {
     -ms-flex-wrap: wrap;
@@ -2086,6 +2132,10 @@ h6 {
   }
   .counters-card {
     margin-bottom: 50px;
+  }
+  .post-card {
+    width: 100%;
+    max-width: 370px;
   }
   .contacts__wrp {
     display: -webkit-box;

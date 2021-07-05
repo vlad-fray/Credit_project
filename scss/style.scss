@@ -119,6 +119,17 @@ $font-size-seched: 30px;
 	position: absolute;
 	width: 100%;
 	padding: 20px 20px;
+	&__basket {
+		@include transition();
+		padding: 2px 0 0;
+		margin-right: 20px;
+		width: 30px;
+		height: 35px;
+		fill: white;
+		&:hover {
+			fill: $hover-color;
+		}
+	}
 }
 
 .burger-menu {
@@ -152,9 +163,6 @@ $font-size-seched: 30px;
 		}
 	}
 	&__box {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		position: fixed;
 		visibility: hidden;
 		top: 0;
@@ -168,10 +176,18 @@ $font-size-seched: 30px;
 		);
 		transition-duration: 0.25s;
 	}
+	&__wrp {
+		height: 90vh;
+		max-height: 700px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: 5vh 0;
+	}
 	&__item {
 		@include transition();
 		display: block;
-		margin: 10px 0;
 		text-align: center;
 		@include text-style(
 			$size: 24px,
@@ -1124,9 +1140,12 @@ $font-size-seched: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	&__logo {
+	&__wrp {
 		width: 210px;
 		margin: 0 45px;
+	}
+	&__logo {
+		width: 100%;
 	}
 }
 
@@ -1404,7 +1423,7 @@ $font-size-seched: 30px;
 	}
 	&__text {
 		color: #555555;
-		margin-right: 10px;
+		margin: 0 10px;
 	}
 	&__name {
 		color: #959595;
@@ -1412,7 +1431,7 @@ $font-size-seched: 30px;
 	&__link {
 		@include transition();
 		color: #555555;
-		margin-right: 10px;
+		margin: 0 10px;
 		&:hover {
 			color: #c7b299;
 		}
@@ -1480,18 +1499,18 @@ $font-size-seched: 30px;
 			flex-direction: column;
 			align-items: center;
 			margin: 0 auto;
+			padding: 0 10px;
 		}
 	}
 	.post-card {
-		margin: 0 0 30px;
+		margin: 0 10px 30px;
 	}
 	// Partners
 	.partners {
 		height: auto;
 		padding: 40px 0;
 		flex-direction: column;
-		&__logo {
-			width: 210px;
+		&__wrp {
 			margin: 30px auto;
 		}
 	}
@@ -1510,11 +1529,27 @@ $font-size-seched: 30px;
 @media (max-width: 768px) {
 	// Header
 	.header {
-		min-height: 0;
-		height: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		min-height: 375px;
+		max-height: 768px;
 	}
-	.carusel {
-		display: none;
+	.burger-nav {
+		position: relative;
+	}
+	.slogan {
+		&__pre-slogan {
+			font-size: 28px;
+		}
+		&__main {
+			font-size: 40px;
+		}
+		&__text {
+			width: 95%;
+			font-size: 14px;
+			margin: 0 auto 20px;
+		}
 	}
 	.pagination {
 		display: none;
@@ -1545,6 +1580,7 @@ $font-size-seched: 30px;
 		&__wrp {
 			grid-template-columns: 1fr;
 			gap: 40px;
+			padding: 0 10px;
 		}
 		&__filters {
 			flex-wrap: wrap;
@@ -1575,6 +1611,11 @@ $font-size-seched: 30px;
 	}
 	.counters-card {
 		margin-bottom: 50px;
+	}
+	// Recent posts
+	.post-card {
+		width: 100%;
+		max-width: 370px;
 	}
 	// Footer
 	.contacts {
