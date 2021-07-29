@@ -245,10 +245,10 @@ h6 {
 }
 
 .nav__item {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   height: 24px;
   font-family: "raleway", sans-serif;
@@ -268,10 +268,10 @@ h6 {
 }
 
 .nav__basket {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   width: 18px;
   height: 24px;
   margin-left: 64px;
@@ -296,10 +296,10 @@ h6 {
 }
 
 .burger-nav__basket {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   padding: 2px 0 0;
   margin-right: 20px;
   width: 30px;
@@ -383,10 +383,10 @@ h6 {
 }
 
 .burger-menu__item {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   text-align: center;
   font-family: "raleway", sans-serif;
@@ -441,10 +441,10 @@ h6 {
 }
 
 .logo__img {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   width: 64px;
   height: 56px;
   fill: white;
@@ -452,10 +452,10 @@ h6 {
 }
 
 .logo__text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "raleway", sans-serif;
   font-style: normal;
   font-size: 34px;
@@ -543,10 +543,10 @@ h6 {
 }
 
 .carusel__arrow {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   fill: #d3c1ad;
   width: 50px;
   height: 74px;
@@ -592,10 +592,10 @@ h6 {
 }
 
 .slogan__button {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   text-transform: uppercase;
   background-color: #998675;
   padding: 19px 39px;
@@ -679,10 +679,10 @@ h6 {
 }
 
 .service-card::after {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   content: '';
   height: 29px;
   width: 71px;
@@ -691,20 +691,20 @@ h6 {
 }
 
 .service-card__icon {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   width: 50px;
   height: 50px;
   margin-bottom: 29px;
 }
 
 .service-card__heading {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -716,10 +716,10 @@ h6 {
 }
 
 .service-card__text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -823,10 +823,10 @@ h6 {
 }
 
 .promo__button {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   -ms-flex-item-align: end;
       align-self: flex-end;
   text-transform: uppercase;
@@ -893,10 +893,10 @@ h6 {
 }
 
 .projects__filter {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   height: 32px;
   padding: 0 24px;
   margin-right: 10px;
@@ -942,10 +942,10 @@ h6 {
 }
 
 .projects__btn {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
@@ -972,10 +972,10 @@ h6 {
 }
 
 .project-card {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   position: relative;
   max-width: 370px;
   background-color: #fbfaf8;
@@ -984,10 +984,10 @@ h6 {
 }
 
 .project-card__img {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   width: 100%;
   height: 237px;
 }
@@ -1012,10 +1012,10 @@ h6 {
 }
 
 .project-card__heading {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "raleway", sans-serif;
   font-style: normal;
   font-size: 20px;
@@ -1025,10 +1025,10 @@ h6 {
 }
 
 .project-card__text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -1127,10 +1127,10 @@ h6 {
 }
 
 .preload__icon {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   fill: white;
   padding-top: 5px;
 }
@@ -1375,10 +1375,10 @@ h6 {
 }
 
 .post-card {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   position: relative;
   width: 370px;
   background-color: rgba(119, 119, 119, 0);
@@ -1386,20 +1386,20 @@ h6 {
 }
 
 .post-card__img {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   width: 100%;
   height: 220px;
   margin-bottom: 25px;
 }
 
 .post-card__heading {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "raleway", sans-serif;
   font-style: normal;
   font-size: 20px;
@@ -1411,10 +1411,10 @@ h6 {
 }
 
 .post-card__text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -1484,10 +1484,10 @@ h6 {
 }
 
 .date-card__day {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   text-align: center;
   padding: 4px 0 2px;
@@ -1502,10 +1502,10 @@ h6 {
 }
 
 .date-card__month {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   text-align: center;
   padding: 2px 0 2px;
@@ -1616,10 +1616,10 @@ h6 {
 }
 
 .waxom-card__img {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   width: 64px;
   height: 56px;
   fill: white;
@@ -1627,10 +1627,10 @@ h6 {
 }
 
 .waxom-card__logo-text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "raleway", sans-serif;
   font-style: normal;
   font-size: 34px;
@@ -1639,10 +1639,10 @@ h6 {
 }
 
 .waxom-card__text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -1653,10 +1653,10 @@ h6 {
 }
 
 .waxom-card__link {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   position: relative;
   font-family: "montserrat", sans-serif;
@@ -1716,10 +1716,10 @@ h6 {
 }
 
 .contacts-recposts__text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -1756,10 +1756,10 @@ h6 {
 }
 
 .contacts-recposts__date {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -1786,10 +1786,10 @@ h6 {
 }
 
 .twitter-posts__text {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -1826,10 +1826,10 @@ h6 {
 }
 
 .twitter-posts__date {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   display: block;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -1872,10 +1872,10 @@ h6 {
 }
 
 .dribble-widget__widget {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   background-position: center;
 }
 
@@ -1935,10 +1935,10 @@ h6 {
 }
 
 .copyright__link {
-  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
-  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, -webkit-filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease, -webkit-filter 0.5s ease;
   color: #555555;
   margin: 0 10px;
 }
@@ -2060,14 +2060,14 @@ h6 {
     position: relative;
   }
   .slogan__pre-slogan {
-    font-size: 28px;
+    font-size: 20px;
   }
   .slogan__main {
-    font-size: 40px;
+    font-size: 36px;
   }
   .slogan__text {
     width: 95%;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0 auto 20px;
   }
   .pagination {

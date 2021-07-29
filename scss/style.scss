@@ -8,11 +8,7 @@ $font-size-seched: 30px;
 	margin: 0 auto;
 }
 
-@mixin pseudo(
-	$display: block,
-	$pos: absolute,
-	$content: ''
-) {
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
 	content: $content;
 	display: $display;
 	position: $pos;
@@ -43,8 +39,8 @@ $font-size-seched: 30px;
 }
 
 @mixin transition() {
-	transition: background 0.5s ease, color 0.5s ease,
-		opacity 0.5s ease, fill 0.5s ease, filter 0.5s ease;
+	transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease,
+		fill 0.5s ease, filter 0.5s ease;
 }
 
 /* Header section*/
@@ -504,11 +500,7 @@ $font-size-seched: 30px;
 .promo {
 	padding: 40px 10px 50px;
 	background-color: #f4f5f8;
-	background-image: linear-gradient(
-		90deg,
-		#211b19 0%,
-		#4e3427 100%
-	);
+	background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
 	&__container {
 		max-width: 1170px;
 		margin: 0 auto;
@@ -886,8 +878,7 @@ $font-size-seched: 30px;
 	padding: 64px 0;
 	display: flex;
 	justify-content: center;
-	background: #f4f5f8
-		linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+	background: #f4f5f8 linear-gradient(90deg, #211b19 0%, #4e3427 100%);
 }
 
 .counters-card {
@@ -1540,14 +1531,14 @@ $font-size-seched: 30px;
 	}
 	.slogan {
 		&__pre-slogan {
-			font-size: 28px;
+			font-size: 20px;
 		}
 		&__main {
-			font-size: 40px;
+			font-size: 36px;
 		}
 		&__text {
 			width: 95%;
-			font-size: 14px;
+			font-size: 12px;
 			margin: 0 auto 20px;
 		}
 	}
